@@ -2,17 +2,31 @@
     
     display: flex;
     justify-content: center;
+    height: 30px;
 }
+
+
 
 .menu{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(224, 224, 224);
+    margin-top: 10px;
+    background-color: #f1f0f0;;
 
-        .menu__locations{
+        &__locations{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 100%;
             height: 40px;
-            background-color: beige;
+            background-color:  #e3e3e3;
+        }
+        &__presentation{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 60%;
+            height: 250px;
         }
 }

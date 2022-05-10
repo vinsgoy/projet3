@@ -1,0 +1,46 @@
+.restaurant{
+    
+        display: flex;
+        flex-direction: column;
+        background-color: #f1f0f0;
+        margin-top: 55px;
+        padding-top: 10px;
+        padding-bottom: 45px;
+        
+    
+
+            &__cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            }
+    
+
+                &__card{
+                    height: 340px;
+                    width: 96%;
+                    background-color: white;
+                }
+
+
+                    &__texte{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        &:focus{
+                            color: black;
+                        }
+                    }
+                    img{
+                        width: 100%;
+                        height: 270px;
+                        object-fit: cover;
+                        
+                    }
+
+
+}

@@ -1,0 +1,35 @@
+.ligne{
+    a{
+        text-decoration: none;
+        color: black;
+        &:focus{
+            color: black;
+        }
+    }
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 15, 15);
+
+  
+
+    & img{
+        width: 100px;
+    }
+    &__ligne{
+
+        margin-left: 10px;
+        a{
+            text-decoration: none;
+            color: white;
+            &:focus{
+                color: white;
+            }
+        }
+    }
+
+}
