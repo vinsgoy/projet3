@@ -1,0 +1,10 @@
+.ligne{
+    a{
+        text-decoration: none;
+        color: black;
+        &:focus{
+            color: black;
+        }
+    }
+}
+

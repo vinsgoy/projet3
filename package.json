@@ -1,0 +1,19 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./sass/style.scss:.p3/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinsgoy/projet3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinsgoy/projet3/issues"
+  },
+  "homepage": "https://github.com/vinsgoy/projet3#readme"
+}
