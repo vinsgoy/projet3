@@ -1,0 +1,76 @@
+.image{
+    width: 100%;
+    
+
+    & img{
+        width: 100%;
+       
+    }
+}
+
+.container{
+        margin-top: -39px; 
+       background-color: #f1f0f0;
+       /* display: flex; */
+       /* flex-direction: column; */
+       border-top-left-radius: 20px;
+       border-top-right-radius: 20px;
+       position: relative;
+       padding-top: 10px;
+
+
+       &__H1{
+        padding-right: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+        & h1{
+            font-size: 30px;
+            margin-left: 10px
+        }
+       }
+
+       &__h2{
+        font-weight: 100;
+        font-size: 20px;
+        font-family: Roboto;
+        margin-left: 10px;
+       }
+       &__card{
+        margin: 0px 5px 0px 5px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        }
+       
+       &__carte{
+           
+            background-color: white;
+            border-radius: 15px;
+
+           }
+
+           &__text{
+            margin: -16px 15px 8px 10px;
+            justify-content: space-between;
+            display: flex;
+            @include font-text
+           }
+           & h3{
+            margin-left: 10px;
+            margin-top: 10px;
+            @include font-h3
+        }
+           
+
+
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+

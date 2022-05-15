@@ -14,6 +14,8 @@
     margin-top: 10px;
     background-color: #f1f0f0;;
 
+        
+
         &__locations{
             display: flex;
             justify-content: center;
@@ -21,12 +23,48 @@
             width: 100%;
             height: 40px;
             background-color:  #e3e3e3;
+            gap: 15px;
         }
         &__presentation{
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 60%;
+            width: 85%;
             height: 250px;
         }
+}   
+
+
+
+
+.head{
+    justify-content: space-between;
+    margin-right: 30%;
+    display: flex;
+    height: 40px;
+
+    &__arrow{
+        font-size: 20px;
+    }
+
+    & img{
+        width: 150px;
+        height: 30px;
+    }
+    
+    
+        a{
+            text-decoration: none;
+            color: black;
+            &:focus{
+                color: black;
+            }
+        }
+    
+
 }
+
+
+
+
+
